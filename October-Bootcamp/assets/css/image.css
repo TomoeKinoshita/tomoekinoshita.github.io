@@ -1,0 +1,6 @@
+div.image{
+    background-image: url(images/dog.jpg);
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}

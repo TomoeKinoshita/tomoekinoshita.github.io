@@ -1,0 +1,31 @@
+/* ID */
+#kreado-abroad{
+    color: blue;
+}
+/* Class */
+.header1{
+    color: green;
+}
+
+/* Universal "*" */
+h1{
+    color: violet;
+}
+*{
+   color: red; 
+}
+
+span{
+    color: goldenrod;
+}
+
+span#span1{
+    color: orangered;
+}
+/* CLASS RULES */
+.list li{
+    color: olive;
+}
+.list li a{
+    color: peru;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout</title>
+    <style>
+        div.static{
+            position: static;
+            border: 3px solid orange;
+        }
+        div.relative{
+            position: relative;
+            left: 30px;
+            border: 3px solid fuchsia;
+        }
+        div.fixed{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            border: 3px solid purple;
+        }
+        div.absolute{
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            border: 3px solid yellow;
+        }
+        div.profile{
+            width: 48%;
+            float: right;
+            box-shadow: 2px 2px 10px tomato;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Layout Position</h2>
+    <div class="static">This element has position static</div>
+    <div class="relative">This element has position relative</div>
+    <div class="fixed">This is position fixed</div>
+    <div class="absolute">This is position absolute</div>
+
+    <div class="profile">
+        <img src="assets/images/girl.jpeg" alt="Profile Pic">
+    </div>
+</body>
+</html>

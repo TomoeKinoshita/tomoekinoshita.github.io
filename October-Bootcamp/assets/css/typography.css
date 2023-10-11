@@ -1,0 +1,155 @@
+#name{
+    color: olive;
+}
+/* Heighest 255 - Lowest 0 */
+#rgb{
+    color: rgb(53, 84, 131);
+}
+/* Opacity heighest 1 - lowest 0 */
+#rbga{
+    color: rgba(233, 29, 189, 0.466);
+}
+#hexcode{
+    color: #03C83C;
+}
+
+
+/* font-family */
+#serif{
+    font-family: serif;
+}
+#sans-serif{
+    font-family: sans-serif;
+}
+#monospace{
+    font-family: monospace;
+}
+
+/* Font-size */
+#px{
+    font-size: 20px;
+}
+/* em = emphemeral unit */
+#em{
+    font-size: 2em;
+}
+#percent{
+    font-size: 200%;
+}
+
+/* font-weight */
+/* Bold, normal, lighter */
+#bold{
+    font-weight: bold;
+}
+#lighter{
+    font-weight: lighter;
+}
+/* 100 - 900 */
+#weight100{
+    font-weight: 100;
+}
+#weight900{
+    font-weight: 900;
+}
+
+
+/* font-style */
+.italic{
+    font-family: serif;
+    font-style: italic;
+}
+.oblique{
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+/* test transform */
+#uppercase{
+    text-transform: uppercase;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#capitalized{
+    text-transform: capitalize;
+}
+
+/* text decoration */
+#text-overline{
+    text-decoration: overline;
+}
+
+#text-line-through{
+    text-decoration: line-through;
+}
+
+#text-underline{
+    text-decoration: underline;
+}
+
+/* text alignment */
+#align-left{
+    text-align: left
+}
+#align-center{
+    text-align: center;
+}
+#align-right{
+    text-align: right;
+}
+
+/* text shadow */
+#text-shadow{
+    text-shadow: 2px 2px 3px #03C83C;
+}
+
+/* text indent */
+#indent-px{
+    text-indent: 50px;
+}
+
+#indent-percent{
+    text-indent: 5%;
+}
+
+#indent-em{
+    text-indent: 5em;
+}
+
+/* letter spacing */
+#letter-5px{
+    letter-spacing: 5px;
+}
+#letter-10px{
+    letter-spacing: 10px;
+}
+#letter-20px{
+    letter-spacing: 20px;
+}
+#letter-30px{
+    letter-spacing: 30px;
+}
+#letter-50px{
+    letter-spacing: 50px;
+}
+
+/* Word Spacing */
+#word-5px{
+    word-spacing: 5px;
+}
+#word-10px{
+    word-spacing: 10px;
+}
+#word-20px{
+    word-spacing: 20px;
+}
+#word-30px{
+    word-spacing: 30px;
+}
+#word-40px{
+    word-spacing: 40px;
+}
+#word-50px{
+    word-spacing: 50px;
+}
